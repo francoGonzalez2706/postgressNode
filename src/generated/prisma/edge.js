@@ -123,7 +123,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/home/franco/Escritorio/Posstgress/src/generated/prisma",
+      "value": "/home/franco/Escritorio/postgressNode-main./postgressNode-main/src/generated/prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -137,7 +137,7 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "/home/franco/Escritorio/Posstgress/prisma/schema.prisma",
+    "sourceFilePath": "/home/franco/Escritorio/postgressNode-main./postgressNode-main/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
@@ -151,12 +151,11 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
-  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {
         "fromEnvVar": "DATABASE_URL",
-        "value": null
+        "value": "postgresql://fran:123456@localhost:5433/biblioteca"
       }
     }
   },
